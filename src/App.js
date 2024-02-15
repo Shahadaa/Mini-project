@@ -1,20 +1,22 @@
 
 import './App.css';
-import{BrowserRouter,Route,Routes}from'react-router-dom';
-import UserRouter from './Routers/userRouter';
-import AdminRouter from './Routers/userRouter';
+// import{BrowserRouter,Route,Routes}from'react-router-dom';
+// import UserRouter from './src/Routers/UserRouter';
+// import AdminRouter from './src/Routers/AdminRouter';
+import UserHomePage from './pages/User/UserHomePage';
 
 
 function App() {
   return (
 
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
        <Routes>
         <Route path='/*' element={<UserRouter/>}/>
         <Route path='/admin/*' element={<AdminRouter/>}/>
        </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <UserHomePage/>
     
     </div>
   );
