@@ -1,16 +1,99 @@
-.nav-list {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    margin-bottom: 35px;
-    margin-left: 55px;
-    border-radius: 11px;
-    font-size: 14px;
-    justify-content: space-between;
+.brandname h1 {
+    font-size:80px;
+    margin-right: auto;
+    margin: 0; 
+    color:#ddf0e6;
+    align-items:center;
+    position: absolute;
+    top: 40%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+
+  }
+  .headparagraph{
+    font-family: 'Jura', sans-serif;
+
+    color:#e2eae6;
+    position: absolute;
+    top: 40%; 
+    left: 20%; 
+    margin: 40px;
+    margin-left: 0.5px;
+
+  }
+  .headparagraph1{
+    font-family: 'Jura', sans-serif;
+
+    color:#e2eae6;
+    position: absolute;
+    top: 50%; 
+    left: 20%; 
+    margin: 30px;
+    margin-left: 0.6px;
+  }
+  .nav-list li {
+    display: inline-block; 
+    margin-right: 20px; 
+
+  }
+  .nav-list :hover {
+
+    background-color:#b7c3bd; 
     
-   
-  
-  
-  
-  
+    box-sizing: 2px 2px;
+
+    
+  } 
+  /* Logo.css */
+
+
+
+
+  /* Header.css */
+
+
+
+.Find-Your-Favorites .Find-Your-Favorites-button {
+  background-color:#333433; /* Button background color */
+  color: #fff; /* Button text color */
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  top: 60%; 
+    left: 25%;
 }
+
+.Find-Your-Favorites .Find-Your-Favorites-button:hover {
+  background-color:#1b1c1c;
+}
+
+  /* Header.css */
+
+
+/* .wish-list img {
+  margin-right: 500px; 
+    margin-left: 500px;
+  width: 30px; /* Adjust width as needed */
+  /* height: auto; Maintain aspect ratio */
+   /* Add pointer cursor on hover */
+ /* Add some spacing between icons */
+/* } */ 
+
+  
+/* .firstpage{
+     display: flex;
+     margin: 0;
+     margin-bottom: 0;
+        height: 90vh;
+        width:90%;
+        position: absolute; 
+        margin-right: 50px; 
+        margin-left: 790px;
+/* background-image: url(C:\MiniProject\e-commerce\public\backgroundimg.png); */
+        
+ /* */ 
