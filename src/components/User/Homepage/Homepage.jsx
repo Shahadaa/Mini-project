@@ -1,12 +1,8 @@
 import React from 'react'
 
-const Homepage  ()  {
+function Homepage() {
   return (
-    <div>
-    <Header/>
-    <Footer/>
-      
-    </div>
+    <div>Homepage</div>
   )
 }
 

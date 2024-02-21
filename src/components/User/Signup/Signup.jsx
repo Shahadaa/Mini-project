@@ -17,7 +17,6 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Call your authentication service to handle registration
     
       
       
