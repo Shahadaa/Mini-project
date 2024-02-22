@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
- import './Signup.css';
+import './Signup.css';
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -7,6 +7,8 @@ const Signup = () => {
     email: '',
     password: '',
   });
+
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleChange = (e) => {
     setFormData({
@@ -17,10 +19,23 @@ const Signup = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-      
-      
-      
+
+    // Validate email format
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      alert('Invalid email format');
+      return;
+    }
+
+    // Submit the form (you can send the data to your server or perform other actions)
+    setSuccessMessage('Signup successful!');
+
+    // Clear form data after submission (optional)
+    setFormData({
+      username: '',
+      email: '',
+      password: '',
+    });
   };
 
   return (
@@ -59,6 +74,8 @@ const Signup = () => {
 
         <button type="submit">Sign Up</button>
       </form>
+
+      {successMessage && <p className="success-message">{successMessage}</p>}
     </div>
   );
 };

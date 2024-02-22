@@ -1,0 +1,29 @@
+.homepage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .main-heading {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .main-paragraph {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .secondary-paragraph {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .homepage-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

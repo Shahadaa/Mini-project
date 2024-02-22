@@ -1,35 +1,26 @@
-// import React from 'react';
-// // import {BrowserRouter, Routes,Route} from 'react-router-dom';
-// // import AdminLoginPage from './pages/Admin/AdminLoginPage';
-// // import AdminDashboardPage from './pages/Admin/AdminDashboardPage';
-// // import AdminAddProductPage from './pages/Admin/AdminAddProductPage';
-// // import AdminEditProductPage from './pages/Admin/AdminEditProductPage';
-// // import AdminHomePage from './pages/Admin/AdminHomePage';
 
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// function AdminRouter() {
-//   return (
-// //     <BrowserRouter>
-// //     <Routes>
-// //        <Route path="/admin/Home" component={AdminHomePage} /> 
-// //       <Route path="/admin/login" component={AdminLoginPage} />
-// //       <Route path="/admin/dashboard" component={AdminDashboardPage} />
-// //       <Route path="/admin/products/add" component={AdminAddProductPage} />
-// //       <Route path="/admin/products/:productId/edit" component={AdminEditProductPage} />
-
-// // </Routes>
-// // </BrowserRouter>
-// //   );
-// // }
-
-// export default AdminRouter;
-import React from 'react'
+// Import your admin components
+ import AdminLoginPage from './pages/Admin/AdminLoginPage';
+ import AdminDashboardPage from './pages/Admin/AdminDashboardPage';
+import AdminAddProductPage from './pages/Admin/AdminAddProductPage';
+ import AdminEditProductPage from './pages/Admin/AdminEditProductPage';
+ import AdminHomePage from './pages/Admin/AdminHomePage';
 
 function AdminRouter() {
   return (
-    <div>AdminRouter</div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/admin/Home" element={<AdminHomePage />} />
+        <Route path="/admin/login" element={<AdminLoginPage />} />
+        <Route path="/admin/dashboard" element={<AdminDashboardPage />} />
+        <Route path="/admin/products/add" element={<AdminAddProductPage />} />
+        <Route path="/admin/products/:productId/edit" element={<AdminEditProductPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default AdminRouter
-
+export default AdminRouter;
