@@ -1,0 +1,59 @@
+[
+    {
+         "id":1 ,
+         "name": "Ferrari",
+         "price": 786543921,
+         "description": "2022 model",
+         "image":"/FerrariPic.jpg"
+    },
+    {
+        "id":2 ,
+        "name": "Pagani Huayra",
+        "price": 461256390,
+        "description": "2023 model",
+        "image":"/paganiPic.jpg"
+    },
+    {
+    "id":3 ,
+    "name": "Lamborghini Huracan",
+    "price": 259457890,
+    "description": "2022 model",
+    "image":"/LMGNI.png"
+    },
+    {
+        "id":4 ,
+        "name": "Rolls Roys",
+        "price": 859459890,
+        "description": "2024 model",
+        "image":"/roys.jpg"
+        },
+        {
+            "id":5 ,
+            "name": "Bugatti",
+            "price": 57945990,
+            "description": "2022 model",
+            "image":"/bugatti.png"
+            },
+            {
+                "id":6 ,
+                "name": "McLaren Artura",
+                "price": 989457875,
+                "description": "2023 model",
+                "image":"/McLaren Artura.jpg"
+                }, 
+                {
+                    "id":7 ,
+                    "name": "Porsche",
+                    "price": 989457995,
+                    "description": "2024 model",
+                    "image":"/PorschePic.jpg"
+                    },
+                    {
+                        "id":8 ,
+                        "name": "BMW",
+                        "price": 1089457995,
+                        "description": "2024 model",
+                        "image":"/bmwPic.jpg"
+                        } 
+]
+    

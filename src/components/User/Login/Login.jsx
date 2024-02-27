@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './login.css';
+import './Login.css'
 
 
 
@@ -30,23 +30,27 @@ const Login = () => {
 
   return (
     <div>
-      <h2>Login</h2>
+     <div className='header'>
+        <div className='login'>
+        <div className ="login-container">
+            <h1>LOGIN</h1>
+            <div className='login-fields'>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="email">Email:</label>
+        <label htmlFor="email"></label>
         <input
           type="email"
-          id="email"
           name="email"
+          placeholder='Enter your email'
           value={formData.email}
           onChange={handleChange}
           required
         />
 
-        <label htmlFor="password">Password:</label>
+        <label htmlFor="password"></label>
         <input
           type="password"
-          id="password"
           name="password"
+          placeholder='Password'
           value={formData.password}
           onChange={handleChange}
           required
@@ -54,6 +58,10 @@ const Login = () => {
 
         <button type="submit">Login</button>
       </form>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
   );
 };

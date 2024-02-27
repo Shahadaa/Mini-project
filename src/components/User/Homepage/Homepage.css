@@ -19,11 +19,55 @@
     color: #777;
     margin-bottom: 20px;
   }
-  
-  .homepage-image {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  .cars{
+    display: flex;
+    justify-content: space-between;
+    /* height: 50vh;
+    width: 50%; */
+    margin-top: 40px;
+    margin-bottom: 0;
+
   }
+  .cars{
+    display: flex;
+  }
+
+  .cars img{
+    margin-right: 10px;
+  }
+
+  .cars img:last-child{
+    margin-right: 30px;
+  }
+ 
+  .cars img{
+    max-width: 100%;
+  }
+
+ 
+  /* .pagani{
+    margin-left: 700;
+    width: 40vh;
+    height: 150px;
+    justify-content: space-between;
+  }
+.lamborghini  {
+
+    margin-left: 700;
+    width: 40vh;
+    height: 150px;
+      justify-content: space-between;
+    }
+  .rollsroys{
+    margin-left: 700;
+    width: 40vh;
+    height: 150px;
+    justify-content: space-between;
+  }
+  .ferrari{
+    margin-left: 700;
+    width: 40vh;
+    height: 150px;
+    justify-content: space-between; 
+  } 
+  */

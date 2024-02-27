@@ -1,43 +1,31 @@
-.brandname h1 {
+.brandname  {
   font-size: 80px;
-  margin: 0; /* Remove one of the margin properties */
-  color: #ddf0e6;
+  margin: 0;
+  color: #fafafa;
   position: absolute;
-  top: 40%;
-  left: 30%;
+  left: 15%;
+  top:370px;
+  letter-spacing: 4px;
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 .headparagraph, .headparagraph1 {
   font-family: 'Jura', sans-serif;
-  color: #e2eae6;
+  color: #ffffff;
   position: absolute;
-  margin-left: 0.5px; /* Adjust margin-left as needed */
+  margin-left: 0.5px; 
 }
 
 .headparagraph {
-  top: 40%;
-  left: 20%;
-  margin: 40px;
+  
+  bottom: 23%;
+  margin: 120px;
 }
 
-.headparagraph1 {
-  top: 50%;
-  left: 20%;
-  margin: 30px;
-}
 
-.nav-list li {
-  display: inline-block;
-  margin-right: 20px;
-}
 
-.nav-list li:hover {
-  background-color: #b7c3bd;
-}
 
-.Find-Your-Favorites .Find-Your-Favorites-button {
+/* .Find-Your-Favorites .Find-Your-Favorites-button {
   background-color: #333433;
   color: #fff;
   font-size: 16px;
@@ -52,4 +40,39 @@
 
 .Find-Your-Favorites .Find-Your-Favorites-button:hover {
   background-color: #1b1c1c;
+} */
+.pic{
+width: 1500px;
+height: 600px;
 }
+.nav-list {
+  padding: 10px 5px; 
+  display: flex;
+  align-items:center;
+  margin-right: 990px; 
+  margin-left: 50px;
+  margin-top: 10px;
+  top: 4px;
+  position: absolute; 
+  letter-spacing: 2.3px;
+  justify-content: space-around;
+
+
+}
+ .nav-list li a{
+  text-decoration: none;
+  color:#ffffff;
+ }
+
+.nav-list li {
+  display: inline-block; 
+  margin-right: 20px; 
+
+} 
+.nav-list :hover {
+
+  
+  box-sizing: 2px 2px;
+
+  
+} 
