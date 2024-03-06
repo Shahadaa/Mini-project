@@ -1,62 +1,54 @@
+/* Signup.css */
+
 .signup-form {
-  width: 300%;
-    height: 80vh;
-    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.3);
-    padding-top: 100px;
-    
-    margin: 50px;
-    margin-left: 480px;
-    
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.form-group :placeholder{
-  color:#570303;
-  display: inline;
-  background: none;
-  letter-spacing: 4px;
-
-  font-family: 'Jura', sans-serif;
+.signup-container {
+  margin-bottom: 15px;
+  margin-top: 90px;
 }
-   
-  
+
+.form-group {
+  margin-bottom: 20px;
+}
+
 label {
-  display: flex;
-  flex-direction: column;
-  gap: 49px;
-  margin-top: 20px;
+  display: block;
+  margin-bottom: 5px;
   font-weight: bold;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='tel'],
-input[type='password'] {
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border-radius: 5px;
   border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .error-message {
   color: red;
-  font-size: 14px;
   margin-top: 5px;
 }
 
- button {
-  padding: 30px 40px;
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
   font-size: 16px;
-  background-color: #78797b;
-  background: transparent;
-   border-radius: 6px;
-   border: 1px solid rgb(67, 66, 66);
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
-.signup-background{
-  height: 100vh;
-  width: 100%;
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
 }
-button:hover {
-  background-color: #3c3d3e;
-}  

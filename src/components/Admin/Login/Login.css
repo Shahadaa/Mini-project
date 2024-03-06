@@ -6,14 +6,14 @@
   }
   
   .login-container{
-    width: 300px;
+    width: 100px;
     background-color:#f3f0ec;
 
    box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.3); /* Adjust shadow as needed */
   
-    height: 350px;
+    height: 150px;
     margin: 50px;
-    margin-left: 480px;
+    margin-left: 280px;
     padding: 30px 40px;
   }
   

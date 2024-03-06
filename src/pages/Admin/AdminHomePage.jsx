@@ -1,8 +1,9 @@
 import React from 'react'
+import Header from '../../components/Admin/Header/Header'
 
 function AdminHomePage() {
   return (
-    <div>AdminHomePage</div>
+    <div><Header/></div>
   )
 }
 

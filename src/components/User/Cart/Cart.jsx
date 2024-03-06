@@ -3,7 +3,7 @@ import React from 'react';
 const Cart = ({ cartItems, removeFromCart }) => {
   return (
     <div>
-      <h2>Shopping Cart</h2>
+      <h2> Cart</h2>
       <ul>
         {cartItems.map(item => (
           <li key={item.id}>

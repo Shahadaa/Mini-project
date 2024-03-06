@@ -180,7 +180,7 @@ const validationSchema = Yup.object().shape({
 
 
 
-const Login = () => {
+const Signup = () => {
     const initialValues = {
       username: '',
       email: '',
@@ -202,7 +202,8 @@ const Login = () => {
         onSubmit={handleSubmit}
       >
         <Form>
-          <div className="form-group">
+        <div className='signup-form'>
+       <div className="signup-container">
             <label htmlFor="username">Username:</label>
             <Field type="text" id="username" name="username" />
             <ErrorMessage name="username" component="div" className="error-message" />
@@ -235,6 +236,8 @@ const Login = () => {
           <div className="form-group">
             <button type="submit">Submit</button>
           </div>
+          </div>
+          
         </Form>
       </Formik>
     );
@@ -242,4 +245,4 @@ const Login = () => {
   
   
  
-  export default Login
+  export default Signup

@@ -1,0 +1,27 @@
+.ADMINnav-list{
+    padding: 10px 5px; 
+  display: flex;
+  align-items:center;
+  /* margin-right: 900px;  */
+  margin-left: 40px;
+  margin-top: 10px;
+  top: 4px;
+  color: brown;
+  position: absolute; 
+  letter-spacing: 2.3px;
+  justify-content: space-around; 
+
+}
+.logout-button{
+    right: 70px;
+    background-color: rgb(229, 229, 227);
+    margin-left: 1200px;
+}
+.AdminHeader{
+    background-color:  rgb(234, 234, 226);
+    box-shadow: 0 3px 3px rgba(0,0,0, 0.1);
+    margin-top: -7.5px;
+    width: 880%;
+    height: 8vh;
+
+}
