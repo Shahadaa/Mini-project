@@ -1,8 +1,10 @@
 import React from 'react'
+import AdminproductDetails from '../../components/Admin/AdminproductDetails/AdminproductDetails.jsx'
+
 
 function AdminAddproductPage() {
   return (
-    <div>AdminAddproductPage</div>
+    <div><AdminproductDetails/></div>
   )
 }
 
