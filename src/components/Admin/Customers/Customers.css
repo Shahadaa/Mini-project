@@ -1,0 +1,38 @@
+.table-fixed {
+    width: 40%;
+    border-collapse: collapse;
+    margin-left: 400px;
+    margin-top: 250px ;
+    border-collapse: collapse;
+  }
+  
+  
+  .table-fixed th,
+  .table-fixed td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table-fixed th {
+    background-color: #f2f2f2;
+  }
+  
+  .block-button {
+    background-color: #504c4c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .block-button:hover {
+    background-color: #646060;
+  }
+  

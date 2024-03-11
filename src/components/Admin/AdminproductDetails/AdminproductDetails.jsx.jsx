@@ -2,7 +2,7 @@ import React from 'react'
 import './AdminproductDetails.css'
 import product from '../../../product.json'
 
-function AdminproductDetails({addToCart}) {
+function AdminproductDetails({Disable}) {
   return (
     <div className="product-list">
     {product.map((product) => (
@@ -11,7 +11,7 @@ function AdminproductDetails({addToCart}) {
             <h3>{product.name}</h3>
             <p>{product.description}</p>
             <p>Price: ${product.price}</p>
-            <button onClick={() => addToCart(product)}>Add to Cart</button>
+            <button onClick={() => Disable(product)}>Desable</button>
             </div>
 
     ))}

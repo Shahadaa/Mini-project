@@ -1,0 +1,33 @@
+.sidebar{
+    display: flex;
+    margin-top: -34px;
+   
+   
+}
+
+
+.container{
+    background-color: #D5D2CD; /* Background color */
+    padding-bottom: 467px;
+}
+.home{
+    text-decoration: none;
+    color:black;
+    
+}
+
+ .products{
+        text-decoration: none;
+        color:black;
+}
+
+.Customers{
+text-decoration: none;
+color:black;
+}
+
+.Orders{
+    text-decoration: none;
+    color:black;
+    } 
+
