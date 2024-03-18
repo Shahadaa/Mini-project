@@ -15,20 +15,20 @@ function Orders() {
   <tbody>
     <tr>
       <td> Ferrari  </td>
-      <td>786543921</td>
+      <td>$786543921</td>
       <td>1</td>
       <td><button className='ViewDetails-button'>View Details</button></td>
 
     </tr>
     <tr>
       <td>Lamborghini Huracan</td>
-      <td>259457890</td>
+      <td>$259457890</td>
       <td>1</td>
       <td><button className='ViewDetails-button'>View Details</button></td>
     </tr>
     <tr>
       <td>Rolls Roys</td>
-      <td>859459890</td>
+      <td>$859459890</td>
       <td>1</td>
       <td><button className='ViewDetails-button'>View Details</button></td>
     </tr>

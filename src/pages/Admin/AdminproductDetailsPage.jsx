@@ -1,15 +1,14 @@
-import React from 'react'
-import AdminproductDetails from '../../components/Admin/AdminproductDetails/AdminproductDetails.jsx'
-import AdminSidebar from '../../components/Admin/AdminSidebar/AdminSidebar.jsx'
+  import React from 'react'
+ import AdminSidebar from '../../components/Admin/AdminSidebar/AdminSidebar'
+  import AdminproductDetails from '../../components/Admin/AdminproductDetails/AdminproductDetails'
 
-
-function AdminAddproductPage() {
-  return (
+ function AdminproductDetailsPage() {
+   return (
     <div>
-      <AdminproductDetails/>
-      <AdminSidebar/>
-      </div>
+     <AdminSidebar/>
+    <AdminproductDetails/>
+     </div>
   )
-}
+ }
 
-export default AdminAddproductPage
+ export default AdminproductDetailsPage

@@ -2,7 +2,7 @@ import React from 'react'
 import './AdminproductDetails.css'
 import product from '../../../product.json'
 
-function AdminproductDetails({Disable}) {
+function Products({Disable}) {
   return (
     <div className="product-list">
     {product.map((product) => (
@@ -18,5 +18,4 @@ function AdminproductDetails({Disable}) {
  </div>
   )
 }
-
-export default AdminproductDetails
+ export default Products

@@ -60,7 +60,7 @@ const AdminSidebar = () => {
                     <ListItemIcon>
                     <LocalMallOutlinedIcon />
                     </ListItemIcon>
-                    <ListItemText primary={"AdminproductDetails"}/>
+                    <ListItemText primary={"Products"}/>
 
                     </ListItemButton>
                     </a>
